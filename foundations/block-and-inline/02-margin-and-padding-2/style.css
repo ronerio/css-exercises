@@ -7,10 +7,20 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 10px;
+}
+
+.card h1,div{
+  margin: 10px auto;
+  padding: 10px;
 }
 
 .title {
   background: #e3f4ff;
+}
+
+.content, .button-container{
+  font-size: 1rem;
 }
 
 .content {
@@ -19,9 +29,12 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
 }
 
 button {
+  display: block;
+  margin: 0 auto;
   background: white;
   border: 1px solid #eee;
 }
